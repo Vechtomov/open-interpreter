@@ -10,7 +10,8 @@ def convert_to_openai_messages(
     function_calling=True,
     vision=False,
     shrink_images=True,
-    code_output_sender="assistant",
+    # code_output_sender="assistant",
+    code_output_sender="user",
 ):
     """
     Converts LMC messages into OpenAI messages

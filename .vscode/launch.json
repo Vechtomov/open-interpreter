@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "OI",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "chat.py",
+            "justMyCode": false,
+            "python": "${command:python.interpreterPath}"
+        },
+    ]
+}
